@@ -2,11 +2,12 @@
 A simple todo list application written in C++
 
 # Compile the application
-#make
+Issue make command in the folder where you checked out the code.<br>
+#make<br>
 It will generate a binary "todo" in the folder itself.
 
 # Execute the application 
-Execute the binary using the command ./todo
+Execute the binary using the command ./todo<br>
 The application creates a text file 'mytasks.txt' in the folder.
 
 # Sample outputs
