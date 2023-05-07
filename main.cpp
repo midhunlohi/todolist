@@ -2,6 +2,7 @@
 #include "todolist.h"
 
 int main(void) {
+start:
     todolist mylist("mytasks.txt");
     mylist.read();
     if (mylist.getcount() > 0) {
@@ -37,5 +38,6 @@ input:
     } else {
         mylist.create();
         mylist.save();
+        goto start;
     }
 }

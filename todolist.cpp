@@ -8,6 +8,8 @@ using namespace std;
 void todolist::create(void) {
     string task;
     while(true) {
+        int count = this->getcount() + 1; 
+        cout << "Index : " << count << " >>";
         std::getline(std::cin, task);
         if (task.empty()) {
             break;
